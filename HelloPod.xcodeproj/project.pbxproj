@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4732EFDD5FC63F2577F5FD0E /* libPods-HelloPod-HelloPodTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CD59AC06AABFD4E3155F0F /* libPods-HelloPod-HelloPodTests.a */; };
+		C96636DA29FA615A003F2D2F /* HelloFromPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96636D929FA615A003F2D2F /* HelloFromPod.swift */; };
+		C96636DB29FA615A003F2D2F /* HelloFromPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96636D929FA615A003F2D2F /* HelloFromPod.swift */; };
+		C9C0EE3029FA608F00A70731 /* HelloPod.docc in Sources */ = {isa = PBXBuildFile; fileRef = C9C0EE2F29FA608F00A70731 /* HelloPod.docc */; };
+		C9C0EE3629FA609000A70731 /* HelloPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C0EE2B29FA608F00A70731 /* HelloPod.framework */; };
+		C9C0EE3B29FA609000A70731 /* HelloPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0EE3A29FA609000A70731 /* HelloPodTests.swift */; };
+		C9C0EE3C29FA609000A70731 /* HelloPod.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C0EE2E29FA608F00A70731 /* HelloPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6306AC950941CE99769566D /* libPods-HelloPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EC7BCD41E3864D196DA372 /* libPods-HelloPod.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9C0EE3729FA609000A70731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C0EE2229FA608F00A70731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C0EE2A29FA608F00A70731;
+			remoteInfo = HelloPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B16FBD827F0685C1949F095 /* Pods-HelloPod-HelloPodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloPod-HelloPodTests.release.xcconfig"; path = "Target Support Files/Pods-HelloPod-HelloPodTests/Pods-HelloPod-HelloPodTests.release.xcconfig"; sourceTree = "<group>"; };
+		A34A72A2841B4658189F868E /* Pods-HelloPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloPod.release.xcconfig"; path = "Target Support Files/Pods-HelloPod/Pods-HelloPod.release.xcconfig"; sourceTree = "<group>"; };
+		A5CD59AC06AABFD4E3155F0F /* libPods-HelloPod-HelloPodTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloPod-HelloPodTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8156B8AE561D7178AE4A3A /* Pods-HelloPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloPod.debug.xcconfig"; path = "Target Support Files/Pods-HelloPod/Pods-HelloPod.debug.xcconfig"; sourceTree = "<group>"; };
+		B66A48789165B2DBA5DA54B3 /* Pods-HelloPod-HelloPodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloPod-HelloPodTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloPod-HelloPodTests/Pods-HelloPod-HelloPodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7EC7BCD41E3864D196DA372 /* libPods-HelloPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96636D929FA615A003F2D2F /* HelloFromPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFromPod.swift; sourceTree = "<group>"; };
+		C9C0EE2B29FA608F00A70731 /* HelloPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C0EE2E29FA608F00A70731 /* HelloPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloPod.h; sourceTree = "<group>"; };
+		C9C0EE2F29FA608F00A70731 /* HelloPod.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HelloPod.docc; sourceTree = "<group>"; };
+		C9C0EE3529FA609000A70731 /* HelloPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C0EE3A29FA609000A70731 /* HelloPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloPodTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C0EE2829FA608F00A70731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6306AC950941CE99769566D /* libPods-HelloPod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0EE3229FA609000A70731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C0EE3629FA609000A70731 /* HelloPod.framework in Frameworks */,
+				4732EFDD5FC63F2577F5FD0E /* libPods-HelloPod-HelloPodTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C9859C56E996EC43CF27AE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA8156B8AE561D7178AE4A3A /* Pods-HelloPod.debug.xcconfig */,
+				A34A72A2841B4658189F868E /* Pods-HelloPod.release.xcconfig */,
+				B66A48789165B2DBA5DA54B3 /* Pods-HelloPod-HelloPodTests.debug.xcconfig */,
+				8B16FBD827F0685C1949F095 /* Pods-HelloPod-HelloPodTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C07FB5DEA172BA6E9758A175 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7EC7BCD41E3864D196DA372 /* libPods-HelloPod.a */,
+				A5CD59AC06AABFD4E3155F0F /* libPods-HelloPod-HelloPodTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9C0EE2129FA608F00A70731 = {
+			isa = PBXGroup;
+			children = (
+				C9C0EE2D29FA608F00A70731 /* HelloPod */,
+				C9C0EE3929FA609000A70731 /* HelloPodTests */,
+				C9C0EE2C29FA608F00A70731 /* Products */,
+				7C9859C56E996EC43CF27AE3 /* Pods */,
+				C07FB5DEA172BA6E9758A175 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C0EE2C29FA608F00A70731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0EE2B29FA608F00A70731 /* HelloPod.framework */,
+				C9C0EE3529FA609000A70731 /* HelloPodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C0EE2D29FA608F00A70731 /* HelloPod */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0EE2E29FA608F00A70731 /* HelloPod.h */,
+				C9C0EE2F29FA608F00A70731 /* HelloPod.docc */,
+				C96636D929FA615A003F2D2F /* HelloFromPod.swift */,
+			);
+			path = HelloPod;
+			sourceTree = "<group>";
+		};
+		C9C0EE3929FA609000A70731 /* HelloPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0EE3A29FA609000A70731 /* HelloPodTests.swift */,
+			);
+			path = HelloPodTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C9C0EE2629FA608F00A70731 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C0EE3C29FA609000A70731 /* HelloPod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C9C0EE2A29FA608F00A70731 /* HelloPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C0EE3F29FA609000A70731 /* Build configuration list for PBXNativeTarget "HelloPod" */;
+			buildPhases = (
+				6A309E23B290154ACD155AF7 /* [CP] Check Pods Manifest.lock */,
+				C9C0EE2629FA608F00A70731 /* Headers */,
+				C9C0EE2729FA608F00A70731 /* Sources */,
+				C9C0EE2829FA608F00A70731 /* Frameworks */,
+				C9C0EE2929FA608F00A70731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloPod;
+			productName = HelloPod;
+			productReference = C9C0EE2B29FA608F00A70731 /* HelloPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9C0EE3429FA609000A70731 /* HelloPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C0EE4229FA609000A70731 /* Build configuration list for PBXNativeTarget "HelloPodTests" */;
+			buildPhases = (
+				21EF93A43F693DF5CC420C31 /* [CP] Check Pods Manifest.lock */,
+				C9C0EE3129FA609000A70731 /* Sources */,
+				C9C0EE3229FA609000A70731 /* Frameworks */,
+				C9C0EE3329FA609000A70731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C0EE3829FA609000A70731 /* PBXTargetDependency */,
+			);
+			name = HelloPodTests;
+			productName = HelloPodTests;
+			productReference = C9C0EE3529FA609000A70731 /* HelloPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C0EE2229FA608F00A70731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C9C0EE2A29FA608F00A70731 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					C9C0EE3429FA609000A70731 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = C9C0EE2529FA608F00A70731 /* Build configuration list for PBXProject "HelloPod" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9C0EE2129FA608F00A70731;
+			productRefGroup = C9C0EE2C29FA608F00A70731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C0EE2A29FA608F00A70731 /* HelloPod */,
+				C9C0EE3429FA609000A70731 /* HelloPodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C0EE2929FA608F00A70731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0EE3329FA609000A70731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21EF93A43F693DF5CC420C31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloPod-HelloPodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A309E23B290154ACD155AF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloPod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C0EE2729FA608F00A70731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96636DA29FA615A003F2D2F /* HelloFromPod.swift in Sources */,
+				C9C0EE3029FA608F00A70731 /* HelloPod.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0EE3129FA609000A70731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96636DB29FA615A003F2D2F /* HelloFromPod.swift in Sources */,
+				C9C0EE3B29FA609000A70731 /* HelloPodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9C0EE3829FA609000A70731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C0EE2A29FA608F00A70731 /* HelloPod */;
+			targetProxy = C9C0EE3729FA609000A70731 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9C0EE3D29FA609000A70731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9C0EE3E29FA609000A70731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9C0EE4029FA609000A70731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8156B8AE561D7178AE4A3A /* Pods-HelloPod.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coditation.HelloPod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9C0EE4129FA609000A70731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34A72A2841B4658189F868E /* Pods-HelloPod.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coditation.HelloPod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9C0EE4329FA609000A70731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66A48789165B2DBA5DA54B3 /* Pods-HelloPod-HelloPodTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coditation.HelloPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9C0EE4429FA609000A70731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B16FBD827F0685C1949F095 /* Pods-HelloPod-HelloPodTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coditation.HelloPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C0EE2529FA608F00A70731 /* Build configuration list for PBXProject "HelloPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C0EE3D29FA609000A70731 /* Debug */,
+				C9C0EE3E29FA609000A70731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C0EE3F29FA609000A70731 /* Build configuration list for PBXNativeTarget "HelloPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C0EE4029FA609000A70731 /* Debug */,
+				C9C0EE4129FA609000A70731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C0EE4229FA609000A70731 /* Build configuration list for PBXNativeTarget "HelloPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C0EE4329FA609000A70731 /* Debug */,
+				C9C0EE4429FA609000A70731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C0EE2229FA608F00A70731 /* Project object */;
+}
